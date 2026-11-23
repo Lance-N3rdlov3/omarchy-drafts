@@ -1,0 +1,33 @@
+[Desktop Entry]
+Type=Application
+Name=Drafts
+Name[da]=Drafts
+Name[de]=Drafts
+Name[es]=Drafts
+Name[fr]=Drafts
+Name[pt_BR]=Drafts
+Name[ar]=Drafts
+Comment=Where text starts — capture, organize, and automate text
+Comment[da]=Hvor tekst begynder — optag, organisér og automatisér tekst
+Comment[de]=Wo Text beginnt — Text erfassen, organisieren und automatisieren
+Comment[es]=Donde empieza el texto — captura, organiza y automatiza texto
+Comment[fr]=Là où commence le texte — capturez, organisez et automatisez vos notes
+Comment[pt_BR]=Onde o texto começa — capture, organize e automatize textos
+Comment[ar]=حيث يبدأ النص — التقط ونظّم وأتمت النصوص
+Exec=drafts %u
+Icon=drafts
+Terminal=false
+Categories=Utility;TextEditor;Office;
+MimeType=x-scheme-handler/drafts;text/markdown;text/plain;
+StartupWMClass=drafts
+Actions=QuickCapture;
+
+[Desktop Action QuickCapture]
+Name=Quick Capture
+Name[da]=Hurtig optagelse
+Name[de]=Schnellerfassung
+Name[es]=Captura rápida
+Name[fr]=Capture rapide
+Name[pt_BR]=Captura rápida
+Name[ar]=التقاط سريع
+Exec=drafts capture

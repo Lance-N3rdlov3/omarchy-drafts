@@ -1,0 +1,6 @@
+{
+  "%n words": { "one": "%n word", "other": "%n words" },
+  "%n chars": { "one": "%n char", "other": "%n chars" },
+  "%n lines": { "one": "%n line", "other": "%n lines" },
+  "%n versions": { "one": "%n version", "other": "%n versions" }
+}
